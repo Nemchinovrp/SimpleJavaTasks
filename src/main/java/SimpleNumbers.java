@@ -1,0 +1,15 @@
+public class SimpleNumbers {
+
+
+    public static boolean simpleNumber(int number) {
+        boolean flag = false;
+        for (int i = 2; i < number; i++) {
+            if (number % i == 0) {
+                return false;
+            } else {
+                flag = true;
+            }
+        }
+        return flag;
+    }
+}
