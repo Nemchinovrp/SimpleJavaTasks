@@ -14,7 +14,7 @@ class MyStackOnBaseArray<T> {
 
     public void push(T value) {
         if (size == array.length) {
-            array = Arrays.copyOf(array, size * 3 / 2);
+            array = Arrays.copyOf(array, size * 3 / 2+1);
         }
         array[size++] = value;
     }
