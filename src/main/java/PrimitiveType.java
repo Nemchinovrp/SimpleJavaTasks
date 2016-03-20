@@ -12,7 +12,7 @@ public class PrimitiveType {
         return (int) Math.pow(2, 31) - 1;
     }
 
-    public static long longValue() {
+    public static long longValue()    {
         return (long) Math.pow(2, 63) - 1;
     }
 }
